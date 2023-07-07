@@ -17,12 +17,11 @@ diff --git a/arch/riscv/boot/dts/Makefile b/arch/riscv/boot/dts/Makefile
 index b0ff5fbabb0c..2d4376810bcc 100644
 --- a/arch/riscv/boot/dts/Makefile
 +++ b/arch/riscv/boot/dts/Makefile
-@@ -1,4 +1,5 @@
+@@ -1,3 +1,4 @@
  # SPDX-License-Identifier: GPL-2.0
 +subdir-y += bouffalolab
  subdir-y += sifive
  subdir-y += starfive
- subdir-$(CONFIG_SOC_CANAAN_K210_DTB_BUILTIN) += canaan
 diff --git a/arch/riscv/boot/dts/bouffalolab/bl808.dtsi b/arch/riscv/boot/dts/bouffalolab/bl808.dtsi
 new file mode 100644
 index 000000000000..c98ebb14ee10
